@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[User Logged in Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Data Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Data Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Data Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Entered Data Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User able to see Report]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23156" started-at="2022-06-13T18:40:27Z" finished-at="2022-06-13T18:40:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23156" started-at="2022-06-13T18:40:27Z" finished-at="2022-06-13T18:40:50Z">
+      <class name="com.testFunctions.TestFunctions">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:com.testFunctions.TestFunctions@7cd62f43]" name="launchApplication" is-config="true" duration-ms="6518" started-at="2022-06-14T00:10:27Z" finished-at="2022-06-14T00:10:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testUserLogin()[pri:0, instance:com.testFunctions.TestFunctions@7cd62f43]" name="testUserLogin" duration-ms="2832" started-at="2022-06-14T00:10:34Z" finished-at="2022-06-14T00:10:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Logged in Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserLogin -->
+        <test-method status="PASS" signature="testEnterUserData()[pri:1, instance:com.testFunctions.TestFunctions@7cd62f43]" name="testEnterUserData" duration-ms="9312" started-at="2022-06-14T00:10:37Z" finished-at="2022-06-14T00:10:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User Entered Data Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Data Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Data Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Entered Data Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEnterUserData -->
+        <test-method status="PASS" signature="testUserReport()[pri:2, instance:com.testFunctions.TestFunctions@7cd62f43]" name="testUserReport" duration-ms="4161" started-at="2022-06-14T00:10:46Z" finished-at="2022-06-14T00:10:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User able to see Report]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testUserReport -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.testFunctions.TestFunctions@7cd62f43]" name="closeApp" is-config="true" duration-ms="267" started-at="2022-06-14T00:10:50Z" finished-at="2022-06-14T00:10:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.testFunctions.TestFunctions -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
