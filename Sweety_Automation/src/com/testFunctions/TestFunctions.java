@@ -10,7 +10,7 @@ import com.util.Xl_Utility;
 
 public class TestFunctions extends TestBase
 {
-	public String datafile = "D:\\Classes\\Testing\\Project\\@MyCodes\\Sweety_Automation\\TestData\\sweet_DATA.xlsx";
+	public String datafile = "C:\\Users\\sunil\\git\\Sweety_Automated\\Sweety_Automated\\Sweety_Automation\\TestData\\sweet_DATA.xlsx";
 	
 	@Test(priority=0)
 	public void testUserLogin() throws IOException
